@@ -1,0 +1,9 @@
+.thumbnail{
+  margin-right: 20px;
+}
+
+.table td, .table th {
+    padding: .75rem !important;
+    vertical-align: none !important;
+    border-top: none !important;
+}

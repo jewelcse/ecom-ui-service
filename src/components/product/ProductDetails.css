@@ -1,0 +1,40 @@
+.product-img{
+    max-width: 100%;
+}
+
+.product-title{
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.product-description{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.product-price{
+    margin-bottom: 15px;
+
+}
+
+.product-price span{
+    color: #ff9f1a;
+}
+
+.add-to-cart-btn,.like-btn{
+    background: #ff9f1a;
+    margin-right: 2px;
+    padding: 1.2em 1.5em;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #fff;
+    transition: background .3s ease;
+}
+
+.add-to-cart-btn:hover,.like-btn:hover{
+    background: #b36800;
+    color: #fff;
+}
