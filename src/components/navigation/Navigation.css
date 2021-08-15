@@ -2,5 +2,10 @@
     color: #ffffff;
 }
 
+.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #317691 !important;
+}
 
 

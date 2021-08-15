@@ -38,8 +38,6 @@ const Navigation = ({ cart }) => {
                             <GrandParentCategoryList />
                             {/* <CategoryList /> */}
 
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link as={Link} to="/products">Products</Nav.Link>
                         <Nav.Link as={Link} to="/cart">

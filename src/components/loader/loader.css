@@ -6,7 +6,8 @@
 
 .loader-area {
   margin-left: 45%;
-  margin-top: 20%;
+  margin-right: 45%;
+  margin-top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,7 @@
   width: .75em;
   height: .75em;
   border-radius: 50%;
-  background: rgb(0, 0, 0);
+  background: rgb(5, 45, 78);
   animation-duration: 1.3s;
   animation-iteration-count: infinite;
 }

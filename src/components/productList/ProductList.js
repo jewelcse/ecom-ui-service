@@ -23,8 +23,13 @@ const ProductList = () => {
     useEffect(() => {
 
         async function fetchAllProducts() {
-            productService.get("get/products").then(res => {
-                console.log(res.data.data,"fetchin")
+            productService.get("get/products", {
+                headers: {
+                    'user-agent': 'Mozilla/4.0 MDN Example',
+                    'content-type': 'application/json'
+                }
+            }).then(res => {
+                console.log(res.data.data, "fetchin")
                 setProducts(res.data.data)
                 setloading(false)
                 dispatch(shoppingActions.setProducts(res.data.data))
@@ -41,19 +46,33 @@ const ProductList = () => {
 
 
     const productList = products.map((product) =>
-        
+
         <Product data={product} id={product.id} key={product.id} />
     );
 
+    if (loading) {
+        return (
+            <Loader />
+        )
+    }
 
+
+    if (products.length === 0) {
+        return (
+            <p>No Products Available</p>
+        )
+    }
 
     return (
         <React.Fragment>
-            <Row>
-                {loading ? <Loader /> : productList}
-            </Row>
-         
 
+            <Layout>
+                <Row>
+
+                    {productList}
+                </Row>
+
+            </Layout>
         </React.Fragment>
     );
 

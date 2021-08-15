@@ -18,6 +18,9 @@ import Navigation from './components/navigation/Navigation'
 import Layout from './components/layout/Layout'
 import Error from './components/error/Error'
 
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+toast.configure()
 
 
 
@@ -43,6 +46,7 @@ function App() {
             <Route path="/product/:id" children={<ProductDetails />}/>
             
             <Route path="/c/:cid/product/:id" children={<ProductDetails />}/>
+            
             <Route path="/category/products/:cid" children={<ProductListByCategoryId />}/>
             
             <Route path="*">

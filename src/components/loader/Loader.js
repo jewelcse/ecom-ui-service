@@ -3,10 +3,13 @@ import './loader.css'
 function Loader() {
     return (
         <div className="loader-area">
+        <div className="">Loading</div>
             <div className="loader">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+
+                
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
             </div>
         </div>
     )

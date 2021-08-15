@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    viewBox="0 0 750 750"
+    version="1.1"
+  >
+  <g
+      id="layer1"
+      transform="translate(0 -302.36)"
+      stroke="#000"
+      stroke-width="1px"
+      display="none"
+      fill="none"
+    >
+    <path
+        id="path3961"
+        d="m375 705.67v-296.54"
+    />
+    <path
+        id="path3963"
+        d="m375 705.67 282.1-91.66"
+    />
+    <path
+        id="path3965"
+        d="m375 705.67 174.31 239.92"
+    />
+    <path
+        id="path3967"
+        d="m375 705.67-174.31 239.92"
+    />
+    <path
+        id="path3969"
+        d="m375 705.67-282.1-91.66"
+    />
+  </g
+  >
+  <g
+      id="layer2"
+      display="none"
+    >
+    <path
+        id="path3971"
+        d="m92.899 614.01 564.2 0.00001l-456.41 331.58 174.31-536.46 174.31 536.46z"
+        transform="translate(0 -302.36)"
+        stroke="#000"
+        stroke-width="1px"
+        fill="none"
+    />
+  </g
+  >
+  <g
+      id="g3016"
+    >
+    <path
+        id="path3018"
+        stroke="#000"
+        stroke-width="1px"
+        fill="none"
+        d="m375 106.78-66.562 204.88h-215.53l174.38 126.66-66.6 204.9 174.31-126.63 174.31 126.62-66.594-204.91 174.38-126.66h-215.53l-66.57-204.86z"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Simple star</dc:title
+        >
+        <dc:date
+          >2013-04-12T16:06:37</dc:date
+        >
+        <dc:description
+          >Simple regular star, drawing contains innerlines too for easy creating 3D look.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/176989/simple-star-by-phidrho-176989</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >phidrho</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >pentagon</rdf:li
+            >
+            <rdf:li
+              >perfect star</rdf:li
+            >
+            <rdf:li
+              >regular star</rdf:li
+            >
+            <rdf:li
+              >star</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

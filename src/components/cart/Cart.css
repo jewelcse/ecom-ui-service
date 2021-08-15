@@ -4,6 +4,7 @@
 
 .table td, .table th {
     padding: .75rem !important;
-    vertical-align: none !important;
     border-top: none !important;
+    vertical-align:inherit !important;
 }
+

@@ -6,14 +6,58 @@
 
 
    */
+.card{
+    overflow: hidden;
+    position: absolute;
+}
 
+   
+.off{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0;
+    background-color:#1f6480;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    animation: spin 10s linear infinite;
+    
+}
+
+.off:hover{
+    color: rgb(155, 200, 207);
+}
+
+.item {
+    border: 3.5px dashed rgb(2, 42, 70);
+  }
+
+.off:after{
+    content: "OFF";
+    overflow: inherit;
+    
+}
 
    .column a{
        text-decoration: none;
    }
 
+   s{
+       color: red;
+   }
+   p{
+       color: black;
+   }
 
-
+.percentage{
+    background-color: #1f6480;
+    border-radius: 50%;
+    padding: 7px;
+    color: white;
+}
 
 
 

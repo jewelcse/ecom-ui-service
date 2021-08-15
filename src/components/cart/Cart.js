@@ -3,7 +3,9 @@ import { connect } from 'react-redux'
 import { removeFromCart } from '../../redux/shopping/shoppingActions'
 import './Cart.css'
 import CartItem from './CartItem'
+import { Link } from 'react-router-dom';
 
+import { Container, Col, Row, Toast,OverlayTrigger,Tooltip,Alert } from 'react-bootstrap'
 import useLocalStorage from '../../localStorage'
 
 const Cart = ({ cart }) => {
@@ -44,6 +46,16 @@ const Cart = ({ cart }) => {
         btn = "btn btn-success"
     }
 
+    if(totalItem == 0){
+        return(
+            <Alert variant="warning" style={{ width: "100%" }}>
+            <Alert.Heading>
+              Your Cart is Empty! <Link ></Link>
+            </Alert.Heading>
+          </Alert>
+        )
+    }
+
     return (
         <React.Fragment>
             <div className="col-sm-12 col-md-10 col-md-offset-1">
@@ -51,8 +63,9 @@ const Cart = ({ cart }) => {
                     <thead>
                         <tr>
                             <th>Product</th>
+                            <th>Category</th>
                             <th>Quantity</th>
-                            <th className="text-center">Price</th>
+                            <th className="text-center">Unit Price</th>
                             <th className="text-center">Total</th>
                             <th> </th>
                         </tr>
