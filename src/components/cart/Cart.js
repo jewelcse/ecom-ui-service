@@ -16,6 +16,8 @@ const Cart = ({ cart }) => {
     const [totalItem, setTotalItem] = useState(0);
     const [cartData, setCartData] = useState();
 
+    
+
 
 
     useEffect(() => {
@@ -44,6 +46,11 @@ const Cart = ({ cart }) => {
         btn = "btn btn-success disabled"
     }else{
         btn = "btn btn-success"
+    }
+
+
+    const placeOrder = ()=>{
+        
     }
 
     if(totalItem == 0){
@@ -114,11 +121,11 @@ const Cart = ({ cart }) => {
                             <td>
 
                                 
-                                <button type="button" className={btn} style={{cursor:"default"}}>
+                                {/* <button type="button" onClick={placeOrder} className={btn} style={{cursor:"default"}}>
                                     Checkout <span className="fa fa-play"></span>
-                                </button>
-                                
-                                
+                                </button> */}
+
+                                <a href="/place-order">Checkout</a>
                                 
                                 
                                 </td>

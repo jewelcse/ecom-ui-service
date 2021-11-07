@@ -118,7 +118,7 @@ const ProductDetails = ({ item, addToCart }) => {
                 {productDetails.categoryId}
             </Row>
             <Row>
-                <Col xs={12} md={6} xl={6} lg={6}>
+                <Col xs={12} md={4}>
 
                     <Carousel fade indicators={true} controls={false}>
 
@@ -130,6 +130,7 @@ const ProductDetails = ({ item, addToCart }) => {
                                 <Carousel.Item key={image}>
 
                                     <SideBySideMagnifier
+                                        style={{height:"200px"}}
                                         imageSrc={image}
                                         alwaysInPlace={true}
                                         overlayBoxOpacity={1}
@@ -140,7 +141,7 @@ const ProductDetails = ({ item, addToCart }) => {
                         })}
                     </Carousel>
                 </Col>
-                <Col xs={12} md={6} xl={6} lg={6}>
+                <Col xs={12} md={6}>
                     <h3 className="product-title">{productDetails.productTitle}</h3>
                     <p>{categoryDetails.categoryTitle}</p>
                     <p>
@@ -170,6 +171,13 @@ const ProductDetails = ({ item, addToCart }) => {
                         }}>Add to Cart</Button>
 
                     </div>
+                </Col>
+
+                <Col xs={12} md={2}>
+
+                <h3>Shipping Address</h3>
+
+
                 </Col>
 
                 <hr style={{border:"5px solid #1f6480",width:"100%"}}/>

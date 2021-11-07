@@ -9,7 +9,7 @@ import CategoryList from '../category/CategoryList'
 import { connect } from 'react-redux'
 
 
-import cartImg from '../../img/shopping-cart-solid.svg'
+import cartImg from '../../img/shopping-cart.svg'
 
 const Navigation = ({ cart }) => {
 
@@ -42,6 +42,10 @@ const Navigation = ({ cart }) => {
                         <Nav.Link as={Link} to="/products">Products</Nav.Link>
                         <Nav.Link as={Link} to="/cart">
                             <img src={cartImg} style={{width:"20px"}} /> <span>{cartCount}</span> cart
+                        </Nav.Link>
+
+                        <Nav.Link as={Link} to="/place-order">
+                            Order
                         </Nav.Link>
 
                     </Nav>

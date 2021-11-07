@@ -7,3 +7,7 @@ export const productService = axios.create({
 export const categoryService = axios.create({
     baseURL: 'http://localhost:8100/api/v1/category-service/'
 });
+
+export const orderService = axios.create({
+    baseURL: 'http://localhost:8300/api/v1/order-service/'
+});

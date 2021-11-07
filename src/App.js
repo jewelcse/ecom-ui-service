@@ -12,6 +12,7 @@ import GrandParentCategory from './components/grandParentCategory/GrandParentCat
 
 import ProductList from './components/productList/ProductList'
 import Cart from './components/cart/Cart'
+import OrderPlace from './components/order/OrderPlace'
 import ProductListByCategoryId from './components/productList/ProductListByCategoryId'
 import ProductDetails from './components/product/ProductDetails'
 import Navigation from './components/navigation/Navigation'
@@ -43,6 +44,11 @@ function App() {
             <Route path="/cart">
               <Cart />
             </Route>
+
+            <Route path="/place-order">
+              <OrderPlace />
+            </Route>
+
             <Route path="/product/:id" children={<ProductDetails />}/>
             
             <Route path="/c/:cid/product/:id" children={<ProductDetails />}/>
